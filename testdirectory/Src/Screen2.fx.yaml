@@ -3,7 +3,6 @@
     LoadingSpinnerColor: =App.Theme.Colors.Primary
 
     ScreenContainer1 As groupContainer.verticalAutoLayoutContainer:
-        DropShadow: =DropShadow.Light
         Fill: =RGBA(245, 245, 245, 1)
         Height: =Parent.Height
         LayoutAlignItems: =LayoutAlignItems.Stretch
@@ -14,29 +13,22 @@
         PaddingLeft: =16
         PaddingRight: =16
         PaddingTop: =16
-        RadiusBottomLeft: =4
-        RadiusBottomRight: =4
-        RadiusTopLeft: =4
-        RadiusTopRight: =4
         Width: =Parent.Width
         ZIndex: =1
 
         HeaderContainer1 As groupContainer.horizontalAutoLayoutContainer:
-            DropShadow: =DropShadow.Light
             Fill: =RGBA(255, 255, 255, 1)
             FillPortions: =0
             Height: =75
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
-            RadiusBottomLeft: =8
-            RadiusBottomRight: =8
-            RadiusTopLeft: =8
-            RadiusTopRight: =8
             ZIndex: =2
 
             Header1 As Header:
+                BasePaletteColor: =
                 DisplayMode: =DisplayMode.Edit
+                FontColor: =
                 Height: =75
                 LayoutMinHeight: =75
                 LayoutMinWidth: =Parent.Width
@@ -57,10 +49,6 @@
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
             LayoutWrap: =true
-            RadiusBottomLeft: =8
-            RadiusBottomRight: =8
-            RadiusTopLeft: =8
-            RadiusTopRight: =8
             Width: =1000
             ZIndex: =4
 
@@ -80,7 +68,6 @@
                 ZIndex: =5
 
                 GalleryContainer1 As groupContainer.verticalAutoLayoutContainer:
-                    DropShadow: =DropShadow.Light
                     Fill: =RGBA(255, 255, 255, 1)
                     Height: =308
                     LayoutAlignItems: =LayoutAlignItems.Center
@@ -88,10 +75,6 @@
                     LayoutJustifyContent: =LayoutJustifyContent.Center
                     LayoutMode: =LayoutMode.Auto
                     LayoutOverflowY: =LayoutOverflow.Scroll
-                    RadiusBottomLeft: =4
-                    RadiusBottomRight: =4
-                    RadiusTopLeft: =4
-                    RadiusTopRight: =4
                     Width: =If(Screen2.Size = ScreenSize.ExtraLarge, (Parent.Width / 3) - 15, Screen2.Size = ScreenSize.Large, (Parent.Width / 2) - 15 , Parent.Width)
                     X: =5
                     Y: =5
@@ -106,10 +89,6 @@
                         LayoutMinHeight: =100
                         LayoutMinWidth: =Parent.Width
                         LayoutMode: =LayoutMode.Auto
-                        RadiusBottomLeft: =4
-                        RadiusBottomRight: =4
-                        RadiusTopLeft: =4
-                        RadiusTopRight: =4
                         Width: =Parent.Width
                         ZIndex: =7
 
@@ -133,15 +112,12 @@
                         PaddingLeft: =20
                         PaddingRight: =20
                         PaddingTop: =20
-                        RadiusBottomLeft: =4
-                        RadiusBottomRight: =4
-                        RadiusTopLeft: =4
-                        RadiusTopRight: =4
                         Width: =Parent.Width
                         ZIndex: =9
 
                         TitleText1 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =30
                             LayoutMinHeight: =32
                             LayoutMinWidth: =Parent.Width
@@ -156,6 +132,7 @@
 
                         DescriptionText1 As Text:
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =45
                             LayoutMinHeight: =32
                             LayoutMinWidth: =Parent.Width
@@ -179,17 +156,15 @@
                         PaddingLeft: =20
                         PaddingRight: =20
                         PaddingTop: =8
-                        RadiusBottomLeft: =4
-                        RadiusBottomRight: =4
-                        RadiusTopLeft: =4
-                        RadiusTopRight: =4
                         Width: =Parent.Width
                         ZIndex: =12
 
                         Button1 As Button:
                             AccessibleLabel: ="Featured item button"
                             Appearance: ='ButtonCanvas.Appearance'.Secondary
+                            BasePaletteColor: =
                             DisplayMode: =DisplayMode.Edit
+                            FontColor: =
                             Height: =32
                             LayoutMinHeight: =32
                             LayoutMinWidth: =96
