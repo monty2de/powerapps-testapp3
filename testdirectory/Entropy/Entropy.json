@@ -3,12 +3,21 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
+    "Circle1": 8,
+    "galleryTemplate1": 7,
     "Host": 3,
-    "Screen1": 4
+    "iconNext1": 11,
+    "iconPrev1": 12,
+    "LabelSkip1": 13,
+    "RectTextBkg1": 5,
+    "Screen1": 4,
+    "TutorialImage1": 9,
+    "TutorialNavigator1": 6,
+    "TutorialText1": 10
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "05/27/2024 08:50:59",
+  "HeaderLastSavedDateTimeUTC": "05/27/2024 09:01:55",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": true,
@@ -16,24 +25,53 @@
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "CustomGallerySample": 0
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
+  "OrderXMLTemplate": {
+    "circle": 2,
+    "gallery": 1,
+    "icon": 5,
+    "image": 3,
+    "label": 4,
+    "rectangle": 0
+  },
   "OverridablePropertiesEntry": {
     "App": {},
+    "Circle1": {},
+    "galleryTemplate1": {},
     "Host": {},
-    "Screen1": {}
+    "iconNext1": {},
+    "iconPrev1": {},
+    "LabelSkip1": {},
+    "RectTextBkg1": {},
+    "Screen1": {},
+    "TutorialImage1": {},
+    "TutorialNavigator1": {},
+    "TutorialText1": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
+    "Circle1": 0,
+    "galleryTemplate1": 0,
     "Host": 0,
-    "Screen1": 0
+    "iconNext1": 0,
+    "iconPrev1": 0,
+    "LabelSkip1": 0,
+    "RectTextBkg1": 0,
+    "Screen1": 0,
+    "TutorialImage1": 0,
+    "TutorialNavigator1": 0,
+    "TutorialText1": 0
   },
-  "ResourcesJsonIndices": {},
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
